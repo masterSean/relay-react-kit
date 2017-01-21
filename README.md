@@ -6,3 +6,8 @@ Simple React Relay Starter kit with GraphQL schema with greetings type. Renders 
 1. GraphQL Schema improvements
 2. Adding Basic mutation
 3. Unit Testing
+
+~~~~~~~~~~~~~~~~~~~~~~~
+"npm install"
+"npm start"
+"npm run update:schema"
