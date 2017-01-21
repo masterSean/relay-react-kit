@@ -3,11 +3,11 @@ schema {
 }
 
 # ...
-type greeting {
+type greetings {
   hello: String
 }
 
 # ...
 type query {
-  greetings: greeting
+  greetings: greetings
 }

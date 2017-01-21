@@ -9,7 +9,7 @@ const GREETINGS = {
 };
 
 const GreetingsType = new GraphQLObjectType({
-    name: "greeting",
+    name: "greetings",
     description: "...",
     fields: function() {
         return {

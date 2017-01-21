@@ -18,7 +18,7 @@
               "args": [],
               "type": {
                 "kind": "OBJECT",
-                "name": "greeting",
+                "name": "greetings",
                 "ofType": null
               },
               "isDeprecated": false,
@@ -32,7 +32,7 @@
         },
         {
           "kind": "OBJECT",
-          "name": "greeting",
+          "name": "greetings",
           "description": "...",
           "fields": [
             {

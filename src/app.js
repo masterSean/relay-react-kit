@@ -14,7 +14,7 @@ class Root extends Component {
 Root = Relay.createContainer(Root, {
     fragments: {
         greetings: () => Relay.QL`
-            fragment on greeting{
+            fragment on greetings {
                 hello
             }
         `
