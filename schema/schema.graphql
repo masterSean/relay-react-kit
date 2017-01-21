@@ -1,0 +1,13 @@
+schema {
+  query: query
+}
+
+# ...
+type greeting {
+  hello: String
+}
+
+# ...
+type query {
+  greetings: greeting
+}

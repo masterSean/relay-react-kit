@@ -1,0 +1,33 @@
+{
+  "name": "react-relay-kit",
+  "version": "1.0.0",
+  "description": "React Relay Graphql starter kit project",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node --presets es2015 server.js",
+    "update:schema": "node ./scripts/update_schema.js"
+  },
+  "author": "sean arce",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-relay-plugin": "^0.10.0",
+    "fs": "0.0.1-security",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-graphql": "^0.6.1",
+    "graphql": "^0.8.2",
+    "graphql-relay": "^0.4.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-relay": "^0.10.0"
+  }
+}
