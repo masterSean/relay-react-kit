@@ -4,8 +4,9 @@
   "description": "React Relay Graphql starter kit project",
   "main": "server.js",
   "scripts": {
-    "start": "babel-node --presets es2015 server.js",
-    "update:schema": "node ./scripts/update_schema.js"
+    "start": "nodemon server.js",
+    "update:schema": "node ./scripts/update_schema.js",
+    "watch:schema": "onchange ./schema/schema.js -- npm run update:schema"
   },
   "author": "sean arce",
   "license": "ISC",
@@ -18,6 +19,7 @@
     "babel-preset-stage-0": "^6.22.0",
     "babel-relay-plugin": "^0.10.0",
     "fs": "0.0.1-security",
+    "onchange": "^3.2.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
   },
