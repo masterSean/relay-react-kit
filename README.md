@@ -1,5 +1,7 @@
 # relay-react-kit
 
+[![Build Status](https://travis-ci.org/masterSean/relay-react-kit.svg?branch=master)](https://travis-ci.org/masterSean/relay-react-kit)
+
 Simple React Relay Starter kit with GraphQL schema with greetings type. Renders "Hello World" fetched from graphql server using relay.
 
 ### ToDo's
