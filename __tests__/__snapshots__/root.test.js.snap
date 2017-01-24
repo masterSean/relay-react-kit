@@ -1,0 +1,5 @@
+exports[`test root component testing 1`] = `
+<h1>
+  Hello world
+</h1>
+`;

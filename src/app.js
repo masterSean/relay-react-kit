@@ -2,16 +2,10 @@ import React, { Component } from "react";
 import Relay from "react-relay";
 import ReactDOM from "react-dom";
 
-class Root extends Component {
-    render() {
-        const { hello } = this.props.greetings;
-        return (
-            <h1>{hello}</h1>        
-        );
-    }
-}
+// Customized Components
+import Root from "./component/root";
 
-Root = Relay.createContainer(Root, {
+const RootRelayContainer = Relay.createContainer(Root, {
     fragments: {
         greetings: () => Relay.QL`
             fragment on greetings {
@@ -36,7 +30,7 @@ class Route extends Relay.Route {
 
 ReactDOM.render(
     <Relay.RootContainer
-        Component={Root}
+        Component={RootRelayContainer}
         route={new Route}
     />,
     document.getElementById("root")  
